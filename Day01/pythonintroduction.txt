@@ -1,0 +1,59 @@
+Day 1 – Introduction to Python (for DevOps)
+1.A Brief History of Python
+
+Created: 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands.
+
+First Release: 1991 (Python 0.9.0).
+
+Philosophy: Python emphasizes simplicity, readability, and productivity. Inspired by ABC language.
+
+Version milestones:
+
+Python 2.x (2000): Widely adopted, but not fully compatible with Python 3.
+
+Python 3.x (2008): Major upgrade, focused on modernization (Unicode support, cleaner syntax).
+
+Current (2025): Python 3.12+ is the stable version.
+Fun fact: The name Python was inspired by the British comedy show “Monty Python’s Flying Circus”, not the snake .
+
+2. Why Python for DevOps?
+
+✅ Simple & Readable — ideal for scripting and automation.
+
+✅ Cross-platform — works on Linux, Windows, macOS.
+
+✅ Huge Ecosystem — libraries for cloud (boto3 for AWS), containers (docker-py), infra (Ansible uses Python), etc.
+
+✅ Great for Glue Code — easily integrates different tools and APIs.
+
+✅ Popular in DevOps — used in CI/CD, monitoring, infrastructure automation, security scanning.
+
+3. ⚡ Setting Up Python
+
+Check if Python is installed:
+
+python3 --version
+
+
+Install Python (if not installed):
+
+Linux: sudo apt install python3 python3-pip
+
+macOS: brew install python
+
+Windows: Download from python.org
+4.Your First Python Script
+
+Save this as hello.py:
+
+print("Hello, DevOps World!)
+
+
+Run it:
+
+python3 hello.py
+
+
+Output:
+
+Hello, DevOps World!
